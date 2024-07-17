@@ -1,0 +1,17 @@
+---
+title: "Models"
+author: "Rajeev Kumar Yadav"
+format: html
+execute: 
+  echo: false
+---
+
+Using data from a YouGov poll of 1,559 US adult citizens, conducted March 10 - 12, 2024, we seek to understand what proportion of voters will support Biden in the 2024 election.
+
+```{r}
+#| label: setup
+#| message: false
+
+library(tidyverse)
+```
+
